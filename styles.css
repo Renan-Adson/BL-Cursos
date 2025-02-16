@@ -1,0 +1,103 @@
+/* Importando a fonte Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A1B2A;
+    color: white;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho com gradiente inspirado na logo */
+header {
+    background: linear-gradient(90deg, #003366, #0099CC);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Nome da empresa estilizado */
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: #00C2A8;
+}
+
+/* Estilização da logo no cabeçalho */
+.logo {
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Container principal */
+.container {
+    background: #12263A;
+    padding: 20px;
+    width: 50%;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.2);
+    flex-grow: 1;
+}
+
+/* Input de código */
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #00C2A8;
+    border-radius: 5px;
+    background: #0A1B2A;
+    color: white;
+}
+
+/* Botão estilizado */
+button {
+    background-color: #00C2A8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #009688;
+}
+
+/* Link de voltar */
+a.voltar {
+    display: block;
+    margin-top: 15px;
+    color: #00C2A8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.voltar:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé fixado no final da página */
+footer {
+    background: #061017;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+

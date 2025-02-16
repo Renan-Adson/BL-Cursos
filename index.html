@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Certificado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBsLeVW0LOQX4pUasF2nTwMSBJLgcHtOgU",
+          authDomain: "bl-cursos.firebaseapp.com",
+          projectId: "bl-cursos",
+          storageBucket: "bl-cursos.firebasestorage.app",
+          messagingSenderId: "412233986490",
+          appId: "1:412233986490:web:5339366b93c2b0c14cad83"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+    <header>
+        <h1><img src="logoPDF.png" alt="B&L CURSOS Logo" class="logo"></h1>
+    </header>
+    <div class="container">
+        <h2>Validação de Certificado</h2>
+        <p>Insira o código do certificado para verificar sua validade.</p>
+        <input type="text" id="codigo" placeholder="Digite o código"></p>
+        <button id="buscar">Buscar Código</button>
+        <p id="resultado"></p>
+        <a href="index.html" class="voltar">Validar outro certificado</a>
+    </div>
+    <footer>
+        <p>Suporte: suporte@blcursos.com | Telefone: (11) 9999-9999</p>
+        <p>&copy; 2025 B&L CURSOS - Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
