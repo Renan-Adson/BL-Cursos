@@ -22,11 +22,11 @@ jobs:
 
       - name: Authenticate Firebase
         run: |
-          echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" > $HOME/credentials.json
+          echo "${{ secrets.FIREBASE_CREDENTIALS }}" > $HOME/credentials.json
           export GOOGLE_APPLICATION_CREDENTIALS=$HOME/credentials.json
 
       - name: Set Firebase project
-        run: firebase use bl-cursos --alias default
+        run: firebase use bl-cursos --alias default 
 
       - name: Deploy to Firebase
         run: firebase deploy --only hosting
